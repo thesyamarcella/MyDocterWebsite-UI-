@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.button {
+    border-color: none;
+    border-radius: 3rem;
+}
+
+.btnreview {
+    border-radius: 3rem;
+    background-color: white;
+    align-items: center;
+    box-shadow: #84ade3;
+}
+
+.rating {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.vertical-scrollable>.row {
+    position: absolute;
+    top: 120px;
+    bottom: 100px;
+    left: 180px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.col-sm-8 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+}
+
+.col-sm-8:nth-child(2n+1) {
+    background: green;
+}
+
+.col-sm-8:nth-child(2n+2) {
+    background: black;
+}
+
+.slogan {
+    padding-top: 4em;
+    background-image: url(./assets/Rectangle\ 345.png);
+    height: 37em;
+}
+
+.slogan-title {
+    padding-top: 7em;
+}
+
+
+/* search bar */
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: 50px;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+}
+
+.img-slogan img {
+    height: 33em;
+    margin-left: 10em;
+}
+
+
+/* tombol */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    color: #edf3ff;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.tombol:hover {
+    background: #77a5e0;
+}
+
+
+/* infopanel */
+
+.info-panel {
+    text-align: center;
+    border-radius: 2em;
+    margin-top: -5em;
+    background-color: white;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/* services */
+
+.services .section-title {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #d5e1ed;
+    border-radius: 0.5em;
+    padding: 20px 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.services .icon-box .icon {
+    margin: 0 auto;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.services .icon-box:hover {
+    box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.2);
+}
+
+.more {
+    margin-top: 2em;
+}
+
+
+/* dokter */
+
+.konsultasi {
+    margin-top: 2em;
+    background-image: url('./assets/Rectangle\ 351.png');
+}
+
+.dokter-box {
+    height: 420px;
+    overflow-y: auto;
+}
+
+.pilih-dokter .h3 {
+    margin-top: 3em;
+    padding-top: 3em;
+}
+
+.pilih-dokter-img img {
+    height: 40em;
+}
+
+.testi-img img {
+    height: 100vh;
+    margin-right: 50em;
+}
+
+.imgobat img {
+    height: 70vh;
+}
+
+.col-sm-3>img {
+    width: 100%;
+}
+
+.col-sm-5>img {
+    width: 100%;
+}
+
+.booking-title {
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+/* booking */
+
+.booking-text {
+    font-size: small;
+    text-align: center;
+}
+
+
+/* cari-obat */
+
+.cari-obat {
+    background-image: url(./assets/Group\ 26.png);
+    background-size: cover;
+    padding: 2.5rem;
+    margin-top: 2rem;
+}
+
+.cari-obat .heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.card-title {
+    margin-top: -2rem;
+}
+
+.card-text {
+    margin-top: -1rem;
+    color: red;
+}
+
+.btn {
+    /* width: 12rem;
+    height: 2.5rem; */
+    border-radius: 3rem;
+    background-color: cornflowerblue;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.cari-obat-box {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cards {
+    width: 100%;
+}
+
+.kategori {
+    padding: 2rem;
+}
+
+
+/* penejelasan */
+
+.penjelasan {
+    background-image: url(./assets/pilihdoctorbg.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.penjelasanteks {
+    margin-top: 5rem;
+}
+
+.penjelasan img {
+    height: auto;
+    width: 20em;
+    margin: top 50em;
+}
+
+
+/* chat */
+
+.inbox_chat {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.active_chat {
+    background: #ebebeb;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+
+.received_withd_msg p {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.received_withd_msg {
+    width: 57%;
+}
+
+.mesgs {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 100%;
+}
+
+.sent_msg p {
+    background: lightblue none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.sent_msg {
+    float: right;
+    width: 46%;
+}
+
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: black;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+}
+
+.type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.msg_send_btn {
+    background: lightblue none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+}
+
+.messaging {
+    padding: 0 0 50px 0;
+}
+
+.msg_history {
+    height: 30em;
+    overflow-y: auto;
+}
+
+
+/* rating */
+
+.cross {
+    padding: 10px;
+    color: lightblue;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.cross i {
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.comment-box {
+    padding: 5px
+}
+
+.comment-area textarea {
+    resize: none;
+    border: 1px solid lightblue
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgb(120, 182, 232) !important
+}
+
+.send {
+    color: #fff;
+    background-color: lightblue;
+    border-color: white
+}
+
+.send:hover {
+    color: #fff;
+    background-color: lightblue;
+    border-color: lightblue
+}
+
+.rating-stars-container {
+    text-align: center;
+}
+  
+.rating-stars {
+    display: inline-block;
+	margin: 20px;
+}
+.rating-star {
+	font-size: 44px;
+	cursor: pointer
+}
+
+.fa-star {
+	color: #00A8CC;
+}
+
+
+.bottom-message {
+	font-size: 0.85em;
+}
+
+.sr-navigator-container.visible-sm-block {
+  margin-top: 30px;
+}
+
+.notes-container {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+#myNotesView {
+	display: block;
+}
+
+.notes-buttons {
+	margin-top: 10px;
+}
+
+@media (max-width: 767px) { 
+  .notes-container {
+    width: 100%;
+  }
+}
+
+.btn-ls-blue {
+	background-color: #4984a3;
+	border: none;
+    -o-transition: background-color 0.215s;
+    -moz-transition: background-color 0.215s;
+    -webkit-transition: background-color 0.215s;
+    transition: background-color 0.215s;
+}
+
+.btn-ls-blue:hover,
+.btn-ls-blue:active,
+.btn-ls-blue:focus,
+.btn-ls-blue.active {
+    background-color: #00A8CC;
+}
+
+.hide { 
+  display: none;
+}
+
+.rinciandokter {
+    background-color: #E3F0FC;
+    border: white;
+    border-radius: 1rem;
+    border-width: 1rem;
+    width: 30rem;
+    margin-top: 6rem;
+}
+
+.rincianbayar {
+    /* background-color: black; */
+    background-image: url(./assets/pilihdoctorbg.png);
+    background-size: cover;
+    border: white;
+    border-radius: 1rem;
+    border-width: 1rem;
+    width: 30rem;
+    margin-top: 6rem;
+}
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #84ade3;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .slogan {}
+    .card-title {
+        margin-top: -2rem;
+        font-size: 1.7rem;
+    }
+    .card-text {
+        font-size: 1.7rem;
+        margin-top: -1rem;
+        color: red;
+    }
+    .btn {
+        /* width: 12rem;
+      height: 2.5rem; */
+        border-radius: 3rem;
+        background-color: cornflowerblue;
+        align-items: center;
+        margin-left: 1rem;
+        color: white;
+    }
+
+    .mesgs {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .cari-obat-box {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+    .supBox {
+        width: 100%;
+        margin: 0 auto auto;
+    }
+    .supBox .boxWrapper .cards {
+        width: 163%;
+    }
+}

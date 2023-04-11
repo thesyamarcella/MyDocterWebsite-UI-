@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Konsultasi</title>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand scrollto" href="./home.html">MyDoctor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active scrollto" aria-current="page" href="#services">layanan</a>
+                    <a class="nav-link scrollto" href="#konsultasi">Konsultasi</a>
+                    <a class="nav-link scrollto" href="#booking">Reservasi</a>
+                    <a class="nav-link scrollto" href="#cari-obat">Beli Obat</a>
+                    <a class="nav-link" href="">Hi, Thesya!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="pilih-dokter" id="pilih-dokter">
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="container">
+                    <div class="col-md-12 mb-3">
+                        <div class="search">
+                            <i class="fa fa-search"></i>
+                            <input type="text" class="form-control" placeholder="Cari nama dokter, kategori ">
+                            <button class="btn">Cari</button>
+                        </div>
+                    </div>
+                    <h5 class="mt-2">rekomendasi kami berdasarkan rating terbaik</h5>
+                </div>
+                <div class="dokter-box">
+                    <div class="container vertical-scrollable d-grid gap-4" style="height: 50rem;">
+                        <div class="card float-right">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img class="d-block w-100" src="./assets/Ava-Dokter-P.jpeg" alt="">
+                                </div>
+                                <div class="col-sm-7 d-flex d-flex justify-content-between align-items-center">
+                                    <div class="card-block p-4">
+                                        <h4 style="font-weight: bold;">Dr. Thesya Marcella</h4>
+                                        <p>Dokter Kesehatan Jiwa</p>
+                                        <h5 style="color: red; font-weight: bold ">Rp 30.000</h5>
+                                        <div class="rating">
+                                            <i class="fa fa-star">4.5(100+Review)</i>
+                                        </div>
+                                        <br>
+                                        <a href="./rincian.html" class="btn ml-auto p-2 ml-auto">Chat Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card float-right">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img class="d-block w-100" src="./assets/Ava-Dokter-P.jpeg" alt="">
+                                </div>
+                                <div class="col-sm-7 d-flex">
+                                    <div class="card-block p-4">
+                                        <h4 style="font-weight: bold;">Dr. Thesya Marcella</h4>
+                                        <p>Dokter Kesehatan Jiwa</p>
+                                        <h5 style="color: red; font-weight: bold ">Rp 30.000</h5>
+                                        <div class="rating">
+                                            <i class="fa fa-star"> 4.5(100+Review)</i>
+                                        </div>
+                                        <br>
+                                        <a href="./rincian.html" class="btn ml-auto p-2 ml-auto">Chat Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card float-right">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <img class="d-block w-100" src="./assets/Ava-Dokter-P.jpeg" alt="">
+                                </div>
+                                <div class="col-sm-7 d-flex">
+                                    <div class="card-block p-4">
+                                        <h4 style="font-weight: bold;">Dr. Thesya Marcella</h4>
+                                        <p>Dokter Kesehatan Jiwa</p>
+                                        <h5 style="color: red; font-weight: bold ">Rp 30.000</h5>
+                                        <div class="rating">
+                                            <i class="fa fa-star">4.5(100+Review)</i>
+
+                                        </div>
+                                        <br>
+                                        <a href="./rincian.html" class="btn p-2 ml-auto">Chat Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- kategori -->
+                    <div class="kategori" id="kategori">
+                        <div class="container">
+                            <h2 class="mb-3" style=" font-weight: bold;">Pilih Berdasarkan Kategori</h2>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="bg-white border border-white">
+                          <img class="card-img-top" src="./assets/Ava-Dokter-W.jpeg"  alt="">
+                      <h6 style="font-weight: 500;">Dokter Umum</h6>
+                  </button>
+                                </div>
+                                <div class="col">
+                                    <button class="bg-white border border-white">
+                          <img class="card-img-top" src="./assets/Ava-Dokter-W.jpeg"  alt="">
+                      dokter jiwa
+                      </button>
+                                </div>
+                                <div class="col">
+                                    <button class="bg-white border border-white">
+                          <img class="card-img-top" src="./assets/Ava-Dokter-W.jpeg"  alt="">
+                          <h6 style="font-weight: 500;">dokter jantung</h6>
+                      </button>
+                                </div>
+                                <div class="col">
+                                    <button class="bg-white border border-white">
+                          <img class="card-img-top" src="./assets/Ava-Dokter-W.jpeg"  alt="">
+                          <h6 style="font-weight: 500;">dokter kulit</h6>
+                      </button>
+                                </div>
+                                <div class="col">
+                                    <button class="bg-white border border-white">
+                          <img class="card-img-top" src="./assets/Ava-Dokter-W.jpeg"  alt="">
+                          <h6 style="font-weight: 500;">dokter bedah</h6>
+                      </button>
+                                </div>
+                                <div class="col">
+                                    <button class="bg-white border border-white">
+                          <img class="card-img-top" src="./assets/Ava-Dokter-W.jpeg"  alt="">
+                          <h6 style="font-weight: 500;">dokter anak</h6>
+                      </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="container p-10 .d-none .d-lg-block .d-xl-none justify-content-center">
+                    <div class="penjelasan">
+                        <!-- <img src="./assets/28468471-removebg-preview.png" alt=""> -->
+                        <!-- <p>Salah satu terobosan di dunia kesehatan adalah layanan konsultasi kesehatan online atau layanan konsultasi dokter online. Meskipun sudah memasuki tatanan hidup baru atau dikenal dengan new normal, bukan berarti kita sudah terhindar dari Pandemi Covid-19. Sebab, pada kenyataannya pandemi ini masih berlangsung dan belum mereda. Dengan diterapkannya new normal dalam kehidupan masyarakat ini, juga berdampak bagi gaya hidup dan juga model pelayanan yang beragam. Perusahaan dan berbagai pelaku usaha, menyediakan layanan yang mendukung aktivitas masyarakat dari dalam rumah.</p> -->
+                        <h4 class="penjelasanteks">Keuntungan konsultasi online dengan kami</h4>
+                        <div class="ml-5">
+                            <h5>1. Merasa lebih aman (tanpa ke luar rumah)</h5>
+                            <!-- <p>Masyarakat dalam keadaan seperti ini, lebih memilih melakukan aktivitas di dalam rumah dan meminimalisir kegiatan di luar ruangan. Dengan melakukan aktivitas di rumah saja, menghindarkan diri dari orang lain atau bahkan kerumunan yang berbahaya karena rentan terjadi penularan Covid-19</p> -->
+                            <h5>2. Waktu fleksibel</h5>
+                            <!-- <p>Calon pasien bisa melakukan konsultasi dengan dokter sesuai dengan waktu yang dimilikinya, sehingga lebih fleksibel tanpa antri yang panjang. dengan memakan waktu yang lebih dikit daripada harus datang langsung ke Klinik, dengan konsultasi dokter online ini, calon pasien bisa menggunakan waktunya untuk melakukan kegiatan produktif lainnya.</p> -->
+                            <h5>3. Lebih cepat mendapat informasi kesehatan</h5>
+                            <!-- <p>Bagi masyarakat yang mengalami keluhan namun ragu untuk periksa, layanan ini akan sangat membantu. Calon pasien akan segera mendapatkan informasi tentang kondisi terkini dan bisa mennetukan, perlukan melakukan rawatjalan atau justru harus datang dan melakukan pemeriksaan lebih lanjut.</p> -->
+                            <h5>4. Layanan responsif</h5>
+                            <!-- <p>Dengan layanan konsultasi online, maka masyarakat bisa mendapat respon yang cepat dan mudah. Karena itu, layanan responsif menjadi nilai unggulan dari layanan jenis ini. Kenapa bisa responsif? karena dengan konsultasi dokter secara online, pastinya dokter selalu siap melayani ketika waktunya online.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <div class="container">
+        <h3 class="mt-5"> Kenapa Konsultasi di MyDokter?</h3>
+        <p>Salah satu terobosan di dunia kesehatan adalah layanan konsultasi kesehatan online atau layanan konsultasi dokter online. Meskipun sudah memasuki tatanan hidup baru atau dikenal dengan new normal, bukan berarti kita sudah terhindar dari Pandemi
+            Covid-19. Sebab, pada kenyataannya pandemi ini masih berlangsung dan belum mereda. Dengan diterapkannya new normal dalam kehidupan masyarakat ini, juga berdampak bagi gaya hidup dan juga model pelayanan yang beragam. Perusahaan dan berbagai
+            pelaku usaha, menyediakan layanan yang mendukung aktivitas masyarakat dari dalam rumah.</p>
+    </div>
+
+    <!-- login start -->
+    <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Login Form -->
+                <form action="">
+                    <div class="modal-header justify-content-center position: relative">
+                        <img src="./assets/Group 21.png" class="modal-title mx-auto my-auto width:100" />
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2 style="text-align:center">Selamat Datang</h2>
+                        <div class="mb-3">
+                            <label for="Username">Nama Pengguna<span class="text-danger">*</span></label>
+                            <input type="text" name="username" class="form-control" id="Username" placeholder="masukkan nama">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Password">Nomor Ponsel<span class="text-danger">*</span></label>
+                            <input type="password" name="password" class="form-control" id="Password" placeholder="+628123456">
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                            <label class="form-check-label" for="remember">Remember Me</label>
+                            <a href="#" class="float-end">Forgot Password</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer pt-4">
+                        <button type="button" class="btn mx-auto w-100">Login</button>
+                    </div>
+                    <p class="text-center">Sudah Punya Akun? <a href="#">Register</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- login end -->
+
+
+
+
+</body>

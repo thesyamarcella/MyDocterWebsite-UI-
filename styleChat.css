@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-nav button {
+    border: none;
+    background-color: transparent;
+}
